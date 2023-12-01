@@ -1,0 +1,74 @@
+.two{
+  width: 500px;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button{
+    width:200px;
+    height: 50px;
+    border-radius:45px;
+    font-size:1.2em;
+    font-weight:900;
+    background: #000;
+    color: #fff;
+    font-family: 'Nanum Gothic';
+    border: 4px solid lightbule;
+    transition: delay 0;
+    cursor: pointer;
+  }
+  .none{
+      margin: 15px 0;
+      
+  }
+  .t{
+      box-sizing: calc(152% +12px);
+  }
+  button:hover {
+    box-shadow:0 0 20p0x #a8eb12,0 0 40px #00E486;
+    border: 4px solid #a8eb12;
+    background: #a8eb12;
+    color:#000;
+    transition: box-shadow 2s, border 3s, background 3s, color 3s;
+    
+  }
